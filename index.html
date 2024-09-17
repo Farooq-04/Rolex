@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROLEX</title>
+    <title>Analog and Digital Clock</title>
     <link rel="stylesheet" href="clock.css">
 </head>
 <body>
     <div class="container">
-        <div class="analog-clock">
+        <div class="clock analog-clock">
             <div class="clock-face">
                 <div class="hand hour-hand"></div>
                 <div class="hand minute-hand"></div>
                 <div class="hand second-hand"></div>
-                <img src="" alt="">
             </div>
         </div>
-        <div class="digital-clock" id="digitalClock"></div>
+        <div class="clock digital-clock">
+            <div id="digital-time"></div>
+            <p id="time" class="time"></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
